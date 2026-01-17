@@ -11,7 +11,7 @@ const videoSchema = new mongoose.Schema(
             type : String,
             required : true,
         },
-        tutle : {
+        title : {
             type : String,
             required : true,    
         },

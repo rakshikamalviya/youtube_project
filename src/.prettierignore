@@ -1,7 +1,7 @@
-/.vscode
-/node_modules
-./dist
-
-*.env
-.env
-.env.*
+{
+    "singleQuote" : false,
+    "brackeSpacing" : true,
+    "tabWidth" : 2,
+    "trailingComma" : "es5",
+    "semi" : true
+}
