@@ -4,7 +4,11 @@ import { DB_NAME } from "./constants.js";
 import express from "express";
 import { app } from "./app.js";
 
-dotenv.config();
+dotenv.config(
+    {
+        path : './.env'
+    }
+);
 
 // const app = express();
 
